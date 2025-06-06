@@ -1,38 +1,4 @@
 
-//document.querySelectorAll('.video').forEach(video => {
- // video.addEventListener('click', () => {
-   // const title = video.querySelector('h3').innerText;
-    //alert(`Playing: ${title}`);
-    // You can replace this with modal or iframe embed later.
- // });
-//});
-
-// 2. Sidebar navigation simulation
-//document.querySelectorAll('.sidebar li').forEach(item => {
-  //item.addEventListener('click', () => {
-    //alert(`Navigating to ${item.innerText}...`);
-    // You can load another page or section here
- // });
-//});
-
-// 3. Add Like button to each video dynamically
-//document.querySelectorAll('.video').forEach(video => {
-  //const likeBtn = document.createElement('button');
-  //likeBtn.innerText = '👍 Like';
-  //likeBtn.classList.add('like-btn');
-  //video.appendChild(likeBtn);
-
-  //let liked = false;
-
- // likeBtn.addEventListener('click', (e) => {
-    //e.stopPropagation(); // Prevent triggering the video play
-    //liked = !liked;
-    //likeBtn.innerText = liked ? '💖 Liked' : '👍 Like';
- // });alert(`Playing: ${title}`);
-//const videoId = "sBzRwzY7G-k"; // You can get this dynamically later
-//window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank');
-
-//});
 
 // 1. Video click: Play video
 document.querySelectorAll('.video').forEach(video => {
